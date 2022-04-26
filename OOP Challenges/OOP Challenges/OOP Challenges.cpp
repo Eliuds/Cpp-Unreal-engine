@@ -23,7 +23,7 @@ int main()
 	dog1.height = "2 feet";
 	dog1.weight = "60 ibs";
 	dog1.shake = "Shake";
-	dog1.sit = "sit";
+	dog1.sit = "Sit";
 	dog1.layDown = "Lay Down";
 	
 	
