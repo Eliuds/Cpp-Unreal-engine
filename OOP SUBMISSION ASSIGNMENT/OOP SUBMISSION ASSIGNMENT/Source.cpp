@@ -3,10 +3,22 @@
 using namespace std;
 
 class shape {
+
 public:
+	
+	float getarea();
 	string color;
-	string getArea;
+
+private:
+	float area, perimeter;
+
 };
+
+
+
+float shape::getarea() {
+	return area;
+}
 
 class shape1 : public shape {
 public:
@@ -19,7 +31,7 @@ public:
 int main() {
 	shape1 rectangle;
 	rectangle.color;
-	rectangle.getArea;
+	float getarea();
 	rectangle.height;
 	rectangle.width;
 }
@@ -34,7 +46,7 @@ int maintwo() {
 	shape2 triangle;
 	triangle.base;
 	triangle.color;
-	triangle.getArea;
+	float getarea();
 	triangle.height;
 	return 0;
 
@@ -48,7 +60,7 @@ public:
 int mainthree() {
 	shape3 circle;
 	circle.color;
-	circle.getArea;
+	float getarea();
 	circle.radius;
 	return 0;
 
