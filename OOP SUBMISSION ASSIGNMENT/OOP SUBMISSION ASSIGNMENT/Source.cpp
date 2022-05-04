@@ -23,8 +23,8 @@ float shape::getarea() {
 class shape1 : public shape {
 public:
 	
-	string height;
-	string width;
+	float height;
+	float width;
 
 };
 
@@ -38,8 +38,8 @@ int main() {
 
 class shape2 : public shape {
 public:
-	string base;
-	string height;
+	float base;
+	float height;
 };
 
 int maintwo() {
@@ -54,7 +54,7 @@ int maintwo() {
 class shape3 : public shape
 {
 public:
-	string radius;
+	float radius;
 };
 
 int mainthree() {
